@@ -115,21 +115,6 @@ a .social-icon {
 
 /* Media Queries */
 
-@media (max-width: 1300px) {
-    hr {
-        width: 20%;
-    }
-    .carousel-item {
-        height: 350px;
-    }
-}
-
-@media (max-width: 1000px) {
-    hr {
-        width: 25%;
-    }
-}
-
 @media (max-width: 991px) {
     .nav-item {
         padding: 0;
@@ -139,110 +124,77 @@ a .social-icon {
         display: flex;
         justify-content: center;
     }
-
-    .carousel-item {
-        height: 375px;
-    }
 }
 
-@media (max-width: 801px) {
-    .carousel-item {
-        height: 400px;
+@media (max-width: 380px) {
+    p {
+        font-size: 1.25rem;
     }
-}
 
-@media (max-width: 729px) {
-    .carousel-item {
-        height: 450px;
+    hr {
+        padding-bottom: 40px;
+        width: 55%;
     }
-}
 
-@media (max-width: 673px) {
-    .carousel-item {
-        height: 500px;
-    }
-}
-
-@media (max-width: 555px) {
-    .carousel-item {
-        height: 550px;
-    }
-}
-
-@media (max-width: 542px) {
     .navbar-brand {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
-}
 
-@media (max-width: 502px) {
+    .nav-link {
+        font-size: 1.75rem;
+    }
+
     .carousel-item {
-        height: 600px;
+        height: 990px;
     }
-}
 
-@media (max-width: 448px) {
-    .carousel-item {
-        height: 650px;
-    }
-}
-
-@media (max-width: 437px) {
-    .navbar-brand {
+    .copyright {
         font-size: 1rem;
     }
 }
 
-@media (max-width: 417px) {
-    .carousel-item {
-        height: 700px;
+@media (max-width: 330px) {
+    p {
+        font-size: 1.2rem;
     }
-}
 
-@media (max-width: 383px) {
-    .carousel-item {
-        height: 750px;
+    hr {
+        padding-bottom: 45px;
+        width: 65%;
     }
-}
 
-@media (max-width: 368px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    .carousel-item {
+        height: 1060px;
+    }
+
     .copyright {
         font-size: 0.9rem;
     }
 }
 
-@media (max-width: 362px) {
-    .carousel-item {
-        height: 800px;
+@media (max-width: 280px) {
+    p {
+        font-size: 1.1rem;
     }
-}
 
-@media (max-width: 337px) {
-    .carousel-item {
-        height: 850px;
+    hr {
+        padding-bottom: 50px;
+        width: 80%;
     }
-}
 
-@media (max-width: 332px) {
+    .navbar-brand {
+        font-size: 0.83rem;
+    }
+
+    .nav-link {
+        font-size: 1.5rem;
+    }
+
     .copyright {
-        font-size: 0.8rem;
-    }
-}
-
-@media (max-width: 331px) {
-    .navbar-brand {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 319px) {
-    .carousel-item {
-        height: 900px;
-    }
-}
-
-@media (max-width: 331px) {
-    .navbar-brand {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 }
